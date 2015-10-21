@@ -1,8 +1,0 @@
-<IfModule mod_rewrite.c>
-RewriteEngine On
-RewriteBase /
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^.*$ /yourls-loader.php [L]
-<p> 404 error </p>
-<p> make sure you typed in your link correctly </p>
