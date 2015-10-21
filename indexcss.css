@@ -1,5 +1,8 @@
 .hbuttons {
-border: 15px;
-color: blue;
+display: block;
+    height: 50px;
+    width: 70px;
+    background: #34696f;
+    border: 2px solid blue;
 
 }
